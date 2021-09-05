@@ -1,4 +1,7 @@
+package com.java.pattern.behavioral.observer;
 
-public class Observer {
-
+public interface IObservable {
+    void sum(IObserver iObserver);
+    void delete(IObserver iObserver);
+    void callObservers(String Text);
 }
